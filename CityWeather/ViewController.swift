@@ -59,8 +59,8 @@ class ViewController: UIViewController {
                     print("Error to parse item")
                     return
             }
-            let title = item["title"] as! String
-            laTitle.text = title
+            let pubDate = item["pubDate"] as! String
+            laTitle.text = pubDate
             
             
             guard let astronomy = channel["astronomy"] as? [String : Any]
@@ -83,11 +83,12 @@ class ViewController: UIViewController {
                 let day = forecastItem["day"] as! String
                 let date = forecastItem["date"] as! String
                 let text = forecastItem["text"] as! String
-                let high = forecastItem["high"] as! Int
-                let low = forecastItem["low"] as! Int
+                let high = "\(forecastItem["high"] as! String) F"
+                let low = "\(forecastItem["low"] as! String) F"
                 
-                forecastItemModel.append(ForecastModel(text: text, day: day, date: date, high: String(high), low: String(low)))
+                forecastItemModel.append(ForecastModel(text: text, day: day, date: date, high: high, low: low))
             }
+            self.tableView.reloadData()
             
             
             laSunRise.text = sunrise
