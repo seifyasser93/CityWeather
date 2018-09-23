@@ -13,6 +13,7 @@
 		833B021321556A7E008A12CC /* CityWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 833B021121556A7E008A12CC /* CityWeather.xcdatamodeld */; };
 		833B021521556A7E008A12CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833B021421556A7E008A12CC /* Assets.xcassets */; };
 		833B021821556A7E008A12CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833B021621556A7E008A12CC /* LaunchScreen.storyboard */; };
+		83C6C8F321578F6900B6A5D6 /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C6C8F221578F6900B6A5D6 /* ForecastModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		833B021421556A7E008A12CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		833B021721556A7E008A12CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		833B021921556A7E008A12CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C6C8F221578F6900B6A5D6 /* ForecastModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				833B020A21556A7E008A12CC /* AppDelegate.swift */,
 				833B020C21556A7E008A12CC /* ViewController.swift */,
+				83C6C8F221578F6900B6A5D6 /* ForecastModel.swift */,
 				833B020E21556A7E008A12CC /* Main.storyboard */,
 				833B021421556A7E008A12CC /* Assets.xcassets */,
 				833B021621556A7E008A12CC /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				833B021321556A7E008A12CC /* CityWeather.xcdatamodeld in Sources */,
 				833B020D21556A7E008A12CC /* ViewController.swift in Sources */,
+				83C6C8F321578F6900B6A5D6 /* ForecastModel.swift in Sources */,
 				833B020B21556A7E008A12CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +309,7 @@
 				833B021E21556A7E008A12CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
