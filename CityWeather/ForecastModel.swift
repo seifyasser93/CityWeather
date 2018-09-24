@@ -12,6 +12,8 @@ struct ForecastModel {
     var text : String
     var day : String
     var date : String
-    var high : String
-    var low : String
+    var highF : String
+    var highC : String
+    var lowF : String
+    var lowC : String
 }
